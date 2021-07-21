@@ -13,4 +13,8 @@ export class CurrentWeatherComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getWindSpeed():string{
+    return this.currentWeather?.wind_speed + "m/s"
+  }
+
 }
