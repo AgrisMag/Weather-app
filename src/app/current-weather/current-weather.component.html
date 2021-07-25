@@ -2,7 +2,7 @@
     <li>
         {{currentWeather?.air_temperature}}&#176;&nbsp;&nbsp;<img
             src="https://img.icons8.com/officel/24/000000/partly-cloudy-day.png" /></li>
-    <li>Vēja ātrums: {{currentWeather?.wind_speed}}m/s</li>
+    <li>Vēja ātrums:{{getWindSpeed()}}</li>
     <li>Vēja virziens: {{currentWeather?.wind_from_direction}}&#176;</li>
     <li>R/Gaisa mitrums: {{currentWeather?.relative_humidity}}%</li>
 </ul>
